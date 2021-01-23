@@ -1,0 +1,85 @@
+:root{
+    --header-font: 'Abril Fatface', 'Playfair Display','Georgia',serif;
+    --desc-font: 'Lato', sans-serif;    
+    --black: #363636;
+    --white: #e7e5e5;
+    --grey: #4b4b4b;
+    --purple: #6b88b8;
+    --darkpurple: #335283;
+    --lightpurple: #b2c8eb;
+    --whitee: #fdf4eb;
+    --brown: #63594f;
+    --darkbrown: #38342f;
+    --cream: #faead3;
+}
+
+.title{
+    font-size: 4rem !important;
+}
+
+.card:hover{
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.171);
+    transition: .3s;
+}
+
+.hospitalLeft, .hospitalRight{
+    width: 50%;
+}
+
+.hospitalLeft{
+        padding: 0 5vw;
+
+}
+
+.hospitalImg{
+    max-width: 110%;
+}
+
+.searchBar{
+    margin-bottom: 3vh;
+}
+
+.card{
+    margin: 1vh;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card-img-top{
+    height: 35%;
+}
+
+.card-title{
+    color: var(--brown);
+    height: 15%;
+    font-weight: bold;
+}
+
+.card-text{
+    height: 50%;
+    font-size: .75rem;
+    color: var(--grey);
+}
+
+.container{
+    flex-direction:column;
+    height: max-content !important;
+    max-width: max-content;
+}
+
+.hospitalPart{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5vh;
+    padding: 5vh 10vh !important;
+}
+
+.hospitalMap{
+    background-color: var(--whitee);
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    
+}

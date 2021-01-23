@@ -1,0 +1,38 @@
+:root{
+    --header-font: 'Abril Fatface', 'Playfair Display','Georgia',serif;
+    --desc-font: 'Lato', sans-serif;    
+    --black: #363636;
+    --white: #e7e5e5;
+    --grey: #4b4b4b;
+    --purple: #6b88b8;
+    --darkpurple: #335283;
+    --lightpurple: #b2c8eb;
+    --whitee: #fdf4eb;
+    --brown: #63594f;
+    --darkbrown: #38342f;
+    --cream: #faead3;
+}
+
+h3{
+    font-weight: bold;
+    font-family: var(--header-font);
+    color: var(--darkpurple);
+}
+
+.specialist{
+    font-weight: bold;
+    color: var(--purple);
+}
+
+.doctorImgContainer{
+    width: 40%;
+}
+
+.doctorImg{
+    width: 100%;
+}
+
+.detailDoctor{
+    display: flex;
+
+}

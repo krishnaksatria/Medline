@@ -1,0 +1,118 @@
+:root{
+    --header-font: 'Abril Fatface', 'Playfair Display','Georgia',serif;
+    --desc-font: 'Lato', sans-serif;    
+    --black: #363636;
+    --white: #e7e5e5;
+    --grey: #4b4b4b;
+    --purple: #6b88b8;
+    --darkpurple: #335283;
+    --lightpurple: #b2c8eb;
+    --whitee: #fdf4eb;
+    --brown: #63594f;
+    --darkbrown: #38342f;
+    --cream: #faead3;
+}
+
+/* register */
+form{
+    text-align: left !important;
+}
+/*  */
+
+.title{
+    text-transform: capitalize;
+    text-align: left !important;
+    color: var(--darkpurple);
+    size: 4rem;
+    font-weight: bold;
+    font-family: var(--header-font);
+}
+
+.container{
+    height: 100vh !important;
+    padding: 0;
+    margin: 0;
+}
+
+.card-body{
+    height: 100% !important;
+}
+
+.row{
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+}
+
+.card{
+    border: none !important;
+}
+
+
+.loginRight{
+    width: 40%;
+}
+
+.registerImg{
+    width: 100%;   
+}
+
+.form-control{
+    width: 20vw !important;
+    max-width: 220px !important;
+    margin-bottom: 2vh !important;
+}
+
+.form-check{
+    margin-bottom: 2vh !important;
+}
+
+.loginGroup{
+    margin-bottom: 2vh !important;
+    text-align: center;
+}
+
+.loginn{
+    width: 100%;
+}
+
+.form-control:focus{
+    background-color: rgb(233, 227, 227) !important;
+    transition: .3s !important;
+}
+
+.sign{
+    color: var(--purple);
+}
+
+.sign:hover{
+    color: var(--darkpurple);
+    transition: .3s;
+}
+/*  */
+
+/* register */
+.registerForm{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: space-evenly !important;
+}
+
+.registerContainer{
+    display: flex;
+}
+
+.register1{
+    margin: 2vw;
+}
+
+.registerr{
+    width: 90%;
+}
+
+.genderLabel{
+    margin-right: 1.5vw;
+}
+
+/*  */

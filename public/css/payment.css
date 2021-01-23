@@ -1,0 +1,79 @@
+:root{
+    --header-font: 'Abril Fatface', 'Playfair Display','Georgia',serif;
+    --desc-font: 'Lato', sans-serif;    
+    --black: #363636;
+    --white: #e7e5e5;
+    --grey: #4b4b4b;
+    --purple: #6b88b8;
+    --darkpurple: #335283;
+    --lightpurple: #b2c8eb;
+    --whitee: #fdf4eb;
+    --brown: #63594f;
+    --darkbrown: #38342f;
+    --cream: #faead3;
+}
+
+p{
+    margin-bottom: 0px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.full{
+    width: 100%;
+    border-radius: 5px;
+    border:1px solid grey;
+    opacity: .5;
+    padding: 5px 10px !important;
+}
+
+.half:focus, .full:focus{
+    opacity: 1;
+    transition: .3s;
+}
+
+.half{
+    width: 30%;
+    border-radius: 5px;
+    border:1px solid grey;
+    opacity: .5;
+    padding: 5px 10px !important;
+}
+
+.payView{
+    display: flex;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 7px;
+}
+
+.payView{
+    background-color: var(--lightpurple);
+    border: none !important;
+    border-radius: 50px;
+    padding: 10px 20px !important;
+}
+
+.content{
+    width: 50%;
+    padding: 7%;
+}
+
+.imgs{
+    width: 50%;
+}
+
+.imgs img{
+    width: 75%;
+
+}
+
+
+.imgs{
+    width: 50%;
+}
+
+input{
+    margin-bottom: 20px;
+}

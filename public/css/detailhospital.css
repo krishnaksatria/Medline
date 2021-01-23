@@ -1,0 +1,85 @@
+:root{
+    --header-font: 'Abril Fatface', 'Playfair Display','Georgia',serif;
+    --desc-font: 'Lato', sans-serif;    
+    --black: #363636;
+    --white: #e7e5e5;
+    --grey: #4b4b4b;
+    --purple: #6b88b8;
+    --darkpurple: #335283;
+    --lightpurple: #b2c8eb;
+    --whitee: #fdf4eb;
+    --brown: #63594f;
+    --darkbrown: #38342f;
+    --cream: #faead3;
+}
+
+/* hospital */
+.hospitalContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5vh;
+}
+ 
+.hospitalImg{
+    border-radius: 1vw;
+    height: 100%;
+    margin-right: 5vw;
+}
+
+.hospitalDetail{
+    padding-left: 7vw;
+}
+
+hr{
+    background-color:var(--purple) !important;
+}
+/*  */
+
+/* doctor */
+.doctor{
+    padding: 20px;
+}
+ 
+h5{
+    height: 13%;
+}
+
+.detail{
+    height: 60%;
+}
+
+.doctorContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2vw;
+}
+
+.doctorImgContainer{
+    width: 25%;
+    height: 250px !important;
+    display: flex;
+    justify-content: center;
+    border: 2px solid var(--purple);
+    background-color: var(--purple);
+    border-radius: 1vw;
+}
+
+.doctorImg{
+    max-width: 75%;
+}
+
+.doctorDetail{
+    height: 250px !important;
+    width: 70%;
+    border: 2px solid var(--purple);
+    padding: 2vw;
+    border-radius: 1vw;
+}
+
+.doctorDetail:hover{
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.171);
+    transition: .3s;
+}
+/*  */

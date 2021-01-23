@@ -1,0 +1,67 @@
+:root{
+    --header-font: 'Abril Fatface', 'Playfair Display','Georgia',serif;
+    --desc-font: 'Lato', sans-serif;    
+    --black: #363636;
+    --white: #e7e5e5;
+    --grey: #4b4b4b;
+    --purple: #6b88b8;
+    --darkpurple: #335283;
+    --lightpurple: #b2c8eb;
+    --whitee: #fdf4eb;
+    --brown: #63594f;
+    --darkbrown: #38342f;
+    --cream: #faead3;
+}
+
+hr{
+    margin-bottom: 10px !important;
+    background-color: var(--darkbrown) !important;
+}
+
+/* home */
+.tes2, .steps1{
+    height: 100%;
+    max-width: 60%;
+}
+
+.tes2 .image{
+    max-height: 75vh;
+}
+
+.tes,.about,.steps{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10vh;
+}
+
+.tes, .about, .services{
+    height: 90vh;
+}
+
+.services{
+    padding: 10vh;
+}
+
+.steps{
+    color: var(--darkbrown);
+}
+
+.services1{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+}
+
+.tes1, .about2{
+    width: 40%;
+}
+
+.circle{
+    background-color: var(--whitee);
+    color:var(--darkbrown);
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 2px;
+}
+/*  */
